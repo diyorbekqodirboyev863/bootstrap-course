@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Columns">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <title>Bootstrap | #05 | Columns</title>
+    <style>
+        .row > div {
+            color: white;
+            background: red;
+            text-align: center;
+            border: 1px solid maroon;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-6">col</div>
+            <div class="col-sm-2 col-md-3 col-lg-2">col</div>
+            <div class="col-sm-2 col-md-3 col-lg-2">col</div>
+            <div class="col-sm-4 col-md-3 col-lg-2">col</div>
+        </div>
+
+        <!-- Alignment. -->
+        <div class="row align-items-start">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+
+        <!-- Justify content. -->
+        <div class="row justify-content-between">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+
+        <!-- Wrapping. -->
+        <div class="row">
+            <div class="col-9">col-9</div>
+            <div class="col-4">col-4</div>
+            <div class="col-6">col-6</div>
+        </div>
+
+        <!-- Reordering. -->
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col order-5">col order-5</div>
+            <div class="col order-1">col order-1</div>
+        </div>
+
+        <!-- Offsetting. -->
+        <div class="row">
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+        </div>
+    </div>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
