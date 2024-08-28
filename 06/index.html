@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gutters">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <title>Bootstrap | #06 | Gutters</title>
+    <style>
+        .row {
+            background-color: #008000;
+        }
+
+        .row > div {
+            color: white;
+            background: #ff0000;
+            text-align: center;
+            border: 1px solid #800000;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Horizontal. -->
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="content">
+                    First
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    Second
+                </div>
+            </div>
+        </div>
+
+        <!-- Vertical. -->
+        <div class="row gy-5">
+            <div class="col">
+                <div class="content">
+                    First
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    Second
+                </div>
+            </div>
+        </div>
+
+        <!-- Mix. -->
+        <div class="row g-5">
+            <div class="col">
+                <div class="content">
+                    First
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    Second
+                </div>
+            </div>
+        </div>
+
+        <!-- Responsive. -->
+        <div class="row gx-lg-5">
+            <div class="col">
+                <div class="content">
+                    First
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    Second
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
